@@ -1,0 +1,24 @@
+users-page.tsx:65 Uncaught TypeError: userFormSchema.partial is not a function
+    at UsersPage (users-page.tsx:65:42)
+chunk-RPCDYKBN.js?v=5ccaef1a:14032 The above error occurred in the <UsersPage> component:
+
+    at UsersPage (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev/src/pages/users-page.tsx:45:21)
+    at Route (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev…/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=5ccaef1a:323:16)
+    at ProtectedRoute (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev/src/lib/protected-route.tsx:22:3)
+    at Switch (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev…/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=5ccaef1a:379:17)
+    at Router
+    at AuthProvider (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev/src/hooks/use-auth.tsx:26:32)
+    at InstallerCheck (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev/src/App.tsx?v=uNTIwJNoQjOUgbQecULNB:91:27)
+    at Provider (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev…unner/workspace/node_modules/.vite/deps/chunk-5AJU3CG7.js?v=5ccaef1a:38:15)
+    at TooltipProvider (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev…rkspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=5ccaef1a:61:5)
+    at V (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev…e/runner/workspace/node_modules/.vite/deps/next-themes.js?v=5ccaef1a:44:25)
+    at J (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev…e/runner/workspace/node_modules/.vite/deps/next-themes.js?v=5ccaef1a:42:18)
+    at QueryClientProvider (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev…rkspace/node_modules/.vite/deps/@tanstack_react-query.js?v=5ccaef1a:2805:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+chunk-RPCDYKBN.js?v=5ccaef1a:9129 Uncaught TypeError: userFormSchema.partial is not a function
+    at UsersPage (users-page.tsx:65:42)
+socket.ts:49 WebSocket disconnected
+﻿

@@ -1,0 +1,26 @@
+https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev/api/settings/logo 500 (Internal Server Error)
+apiRequest @ queryClient.ts:33
+mutationFn @ logo-upload.tsx:24
+fn @ @tanstack_react-query.js?v=924b1f66:1189
+run @ @tanstack_react-query.js?v=924b1f66:494
+start @ @tanstack_react-query.js?v=924b1f66:536
+execute @ @tanstack_react-query.js?v=924b1f66:1225
+await in execute
+mutate @ @tanstack_react-query.js?v=924b1f66:2630
+(anonymous) @ @tanstack_react-query.js?v=924b1f66:3295
+handleFileChange @ logo-upload.tsx:81
+callCallback2 @ chunk-RPCDYKBN.js?v=924b1f66:3674
+invokeGuardedCallbackDev @ chunk-RPCDYKBN.js?v=924b1f66:3699
+invokeGuardedCallback @ chunk-RPCDYKBN.js?v=924b1f66:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-RPCDYKBN.js?v=924b1f66:3736
+executeDispatch @ chunk-RPCDYKBN.js?v=924b1f66:7014
+processDispatchQueueItemsInOrder @ chunk-RPCDYKBN.js?v=924b1f66:7034
+processDispatchQueue @ chunk-RPCDYKBN.js?v=924b1f66:7043
+dispatchEventsForPlugins @ chunk-RPCDYKBN.js?v=924b1f66:7051
+(anonymous) @ chunk-RPCDYKBN.js?v=924b1f66:7174
+batchedUpdates$1 @ chunk-RPCDYKBN.js?v=924b1f66:18913
+batchedUpdates @ chunk-RPCDYKBN.js?v=924b1f66:3579
+dispatchEventForPluginEventSystem @ chunk-RPCDYKBN.js?v=924b1f66:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-RPCDYKBN.js?v=924b1f66:5478
+dispatchEvent @ chunk-RPCDYKBN.js?v=924b1f66:5472
+dispatchDiscreteEvent @ chunk-RPCDYKBN.js?v=924b1f66:5449

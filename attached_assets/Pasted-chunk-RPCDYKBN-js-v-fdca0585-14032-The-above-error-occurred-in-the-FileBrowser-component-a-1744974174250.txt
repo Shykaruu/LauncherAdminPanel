@@ -1,0 +1,27 @@
+chunk-RPCDYKBN.js?v=fdca0585:14032 The above error occurred in the <FileBrowser> component:
+
+    at FileBrowser (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev/src/components/files/file-browser.tsx:27:31)
+    at div
+    at div
+    at div
+    at main
+    at div
+    at DashboardLayout (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev/src/components/layouts/dashboard-layout.tsx:30:35)
+    at FilesPage (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev/src/pages/files-page.tsx:30:22)
+    at Route (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev…/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=fdca0585:323:16)
+    at ProtectedRoute (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev/src/lib/protected-route.tsx:22:3)
+    at Switch (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev…/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=fdca0585:379:17)
+    at Router
+    at AuthProvider (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev/src/hooks/use-auth.tsx:26:32)
+    at InstallerCheck (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev/src/App.tsx?v=gi3NLCE1Wz-jqHbrzLHxT:91:27)
+    at Provider (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev…unner/workspace/node_modules/.vite/deps/chunk-E7IAXTU4.js?v=fdca0585:38:15)
+    at TooltipProvider (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev…rkspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=fdca0585:61:5)
+    at V (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev…e/runner/workspace/node_modules/.vite/deps/next-themes.js?v=fdca0585:44:25)
+    at J (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev…e/runner/workspace/node_modules/.vite/deps/next-themes.js?v=fdca0585:42:18)
+    at QueryClientProvider (https://59642a54-07d7-47f9-99f4-736fad3dd5c4-00-szq83vrqf9u.kirk.replit.dev…rkspace/node_modules/.vite/deps/@tanstack_react-query.js?v=fdca0585:2805:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+chunk-RPCDYKBN.js?v=fdca0585:9129 Uncaught ReferenceError: formatBytes is not defined
+    at FileBrowser (file-browser.tsx:252:54)

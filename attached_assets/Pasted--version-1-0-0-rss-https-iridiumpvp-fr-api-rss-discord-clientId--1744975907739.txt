@@ -1,0 +1,468 @@
+{
+  "version": "1.0.0",
+  "rss": "https://iridiumpvp.fr/api/rss",
+  "discord": {
+    "clientId": "1346511278386188340",
+    "smallImageText": "logo",
+    "smallImageKey": "logo"
+  },
+  "servers": [
+    {
+      "id": "pvp-faction-1.20.1",
+      "name": "Pvp Faction",
+      "description": "Le serveur Pvp Faction d'Iridium",
+      "icon": "https://r2.iridiumpvp.fr/launcher-images/logo/icon.png",
+      "version": "1.0.0",
+      "address": "136.243.169.154:30850",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "1346511278386188340",
+        "largeImageText": "logo",
+        "largeImageKey": "logo_without_background"
+      },
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.13",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1387633,
+            "MD5": "5cffbeb4848a035ce735295b1cc0e7fa",
+            "url": "https://cdn.iridiumpvp.fr/launcher/repo/lib/net/fabricmc/fabric-loader/0.16.13/fabric-loader-0.16.13.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.16.13",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2859,
+                "MD5": "0911d31a3dbf7fec690cb009a01e8e52",
+                "url": "https://cdn.iridiumpvp.fr/launcher/repo/versions/1.20.1-fabric-0.16.13/1.20.1-fabric-0.16.13.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://cdn.iridiumpvp.fr/launcher/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://cdn.iridiumpvp.fr/launcher/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://cdn.iridiumpvp.fr/launcher/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://cdn.iridiumpvp.fr/launcher/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://cdn.iridiumpvp.fr/launcher/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.4+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1494834,
+                "MD5": "991ca8be2c408fe19eb64014d8a18243",
+                "url": "https://cdn.iridiumpvp.fr/launcher/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://cdn.iridiumpvp.fr/launcher/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "shcm.shsupercm:citresewn:1.1.5+1.20.1@jar",
+          "name": "CIT Resewn",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 391752,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/citresewn-1.1.5+1.20.1.jar",
+            "MD5": "d0d036a2aeff226687f369269524653d"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.0.0@jar",
+          "name": "Custom NPCs",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 13029649,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/CustomNPCs-Unofficial-Fabric-1.20.1.20240901.jar",
+            "MD5": "bb7ec44227e4b7dd6f0716a7cdc03548"
+          }
+        },
+        {
+          "id": "com.seibel:distanthorizons:2.3.2-b@jar",
+          "name": "Distant Horizons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 17830252,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/DistantHorizons-fabric-forge-2.3.2-b-1.20.1.jar",
+            "MD5": "97fed7eab81bdb45901886a36b48e64d"
+          }
+        },
+        {
+          "id": "org.ladysnake.effective.core:effective:2.3.2-1.20.1@jar",
+          "name": "Effective",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 35483882,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/optionalon/effective-2.3.2-1.20.1.jar",
+            "MD5": "116451023a134c3c952b865a998bc282"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "io.github.aratakileo:elegantia:0.0.1-beta+1.20-1.20.1@jar",
+          "name": "Elegantia",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 158060,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/elegantia-0.0.1-beta+1.20-1.20.1.jar",
+            "MD5": "257fa9c3e303e29a94adbfce9c6ff7a5"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:2.4.1@jar",
+          "name": "Entity Model Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 444272,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/entity_model_features_fabric_1.20.1-2.4.1.jar",
+            "MD5": "9979ce497513b57a72175d80167a3fe5"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:6.2.9@jar",
+          "name": "Entity Texture Features",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 652400,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/entity_texture_features_fabric_1.20.1-6.2.9.jar",
+            "MD5": "69e81059aa60c49bc9c97918d4640edd"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.3+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2107985,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/fabric-api-0.92.3+1.20.1.jar",
+            "MD5": "dc37eff29b709467379bc41ae4f721b4"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:3.4.6@jar",
+          "name": "FancyMenu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3216865,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/fancymenu_fabric_3.4.6_MC_1.20.1.jar",
+            "MD5": "0e62b227f5c28a412726cdcb508dd079"
+          }
+        },
+        {
+          "id": "generated.fabricmod:ferritecore:6.0.1@jar",
+          "name": "FerriteCore",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 125197,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/ferritecore-6.0.1-fabric.jar",
+            "MD5": "a19272e427f75fea59127de6610ea26b"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.7.1.2@jar",
+          "name": "GeckoLib 4",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1042863,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/geckolib-fabric-1.20.1-4.7.1.2.jar",
+            "MD5": "39817f59719d49b84597786f68b6d63e"
+          }
+        },
+        {
+          "id": "link.infra:indium:1.0.36+mc1.20.1@jar",
+          "name": "Indium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 105382,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/indium-1.0.36+mc1.20.1.jar",
+            "MD5": "21cefdaa742e1f31ded4f85f55a0f41c"
+          }
+        },
+        {
+          "id": "fr.iridium.mod:iridium:1.0-SNAPSHOT@jar",
+          "name": "Iridium Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 20623392,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/iridium-1.0-SNAPSHOT-remapped.jar",
+            "MD5": "0daf90ecc8f4a071a8e65145ed448d3b"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.7.6+mc1.20.1@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2726899,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/iris-1.7.6+mc1.20.1.jar",
+            "MD5": "45577adb5ab16505572c6ea4b1006e58"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.8.1@jar",
+          "name": "Konkrete",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 892067,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/konkrete_fabric_1.8.1_MC_1.20.1.jar",
+            "MD5": "a816ca0f5272f0e60c745f7fe6bef1d6"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.11.3@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 706600,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/lithium-fabric-mc1.20.1-0.11.3.jar",
+            "MD5": "de6d394cedf7e33bfd4b03209156211a"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.3@jar",
+          "name": "Melody",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 39696,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+            "MD5": "8095b46d324586b3cf3d2f5bffe8b417"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.13+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 971552,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/sodium-fabric-0.5.13+mc1.20.1.jar",
+            "MD5": "76e0349865f91f315aae087a6e88a84a"
+          }
+        },
+        {
+          "id": "generated.fabricmod:suggestions-api:1.0.6+1.20-1.20.4-fabric@jar",
+          "name": "SuggestionsAPI",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 43435,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/fabricmods/required/suggestions-api-1.0.6+1.20-1.20.4-fabric.jar",
+            "MD5": "aa4b4c73bccecfe1f3d89ac50b668b62"
+          }
+        },
+        {
+          "id": "16x16.png",
+          "name": "16x16.png",
+          "type": "File",
+          "artifact": {
+            "size": 996,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/files/config/fancymenu/assets/icons/16x16.png",
+            "MD5": "76ec9fa1ca5ac78d351775f2f2cd52ad",
+            "path": "config/fancymenu/assets/icons/16x16.png"
+          }
+        },
+        {
+          "id": "32x32.png",
+          "name": "32x32.png",
+          "type": "File",
+          "artifact": {
+            "size": 2970,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/files/config/fancymenu/assets/icons/32x32.png",
+            "MD5": "e641b3390341caba390b454101e2d448",
+            "path": "config/fancymenu/assets/icons/32x32.png"
+          }
+        },
+        {
+          "id": "macos.icns",
+          "name": "macos.icns",
+          "type": "File",
+          "artifact": {
+            "size": 143298,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/files/config/fancymenu/assets/icons/macos.icns",
+            "MD5": "67911a628dc5098bf49fcc055191aef8",
+            "path": "config/fancymenu/assets/icons/macos.icns"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 332,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "251dd5c92d957662fea8195802347a48",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "fr.iridium.guis.shop_layout.txt",
+          "name": "fr.iridium.guis.shop_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 8555,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/files/config/fancymenu/customization/fr.iridium.guis.shop_layout.txt",
+            "MD5": "00e5aae7c6192cc7c81355bd4ce6ac61",
+            "path": "config/fancymenu/customization/fr.iridium.guis.shop_layout.txt"
+          }
+        },
+        {
+          "id": "fr.iridium.guis.tutorial.starting_layout.txt",
+          "name": "fr.iridium.guis.tutorial.starting_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 8763,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/files/config/fancymenu/customization/fr.iridium.guis.tutorial.starting_layout.txt",
+            "MD5": "3ca1daadebb02536ffd844b17d1f804d",
+            "path": "config/fancymenu/customization/fr.iridium.guis.tutorial.starting_layout.txt"
+          }
+        },
+        {
+          "id": "ingame_hud_layout.txt",
+          "name": "ingame_hud_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 30934,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/files/config/fancymenu/customization/ingame_hud_layout.txt",
+            "MD5": "3be1f8ceb505d81dfd16fb08d9d11750",
+            "path": "config/fancymenu/customization/ingame_hud_layout.txt"
+          }
+        },
+        {
+          "id": "loading_overlay_layout.txt",
+          "name": "loading_overlay_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 9544,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/files/config/fancymenu/customization/loading_overlay_layout.txt",
+            "MD5": "de424e3aed680caf97c50c672803fde0",
+            "path": "config/fancymenu/customization/loading_overlay_layout.txt"
+          }
+        },
+        {
+          "id": "loading_screen.txt",
+          "name": "loading_screen.txt",
+          "type": "File",
+          "artifact": {
+            "size": 8152,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/files/config/fancymenu/customization/loading_screen.txt",
+            "MD5": "31eec8188c132f44aad3f213d6128df4",
+            "path": "config/fancymenu/customization/loading_screen.txt"
+          }
+        },
+        {
+          "id": "title_screen.txt",
+          "name": "title_screen.txt",
+          "type": "File",
+          "artifact": {
+            "size": 21803,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/files/config/fancymenu/customization/title_screen.txt",
+            "MD5": "aa8b17db3c4dd9431c73f44da8a0f07f",
+            "path": "config/fancymenu/customization/title_screen.txt"
+          }
+        },
+        {
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 624,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/files/config/fancymenu/custom_gui_screens.txt",
+            "MD5": "7bcdb654d97480d3467d35ab69e02615",
+            "path": "config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2082,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/files/config/fancymenu/options.txt",
+            "MD5": "53dcb3efdb79ac59c67cab8df7b74db0",
+            "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4.zip",
+          "name": "ComplementaryUnbound_r5.4.zip",
+          "type": "File",
+          "artifact": {
+            "size": 452408,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.4.zip",
+            "MD5": "94f56d5c5c343b9a0f4ad7eb135f9afa",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.4.zip.txt",
+          "name": "ComplementaryUnbound_r5.4.zip.txt",
+          "type": "File",
+          "artifact": {
+            "size": 328,
+            "url": "https://cdn.iridiumpvp.fr/launcher/servers/pvp-faction-1.20.1/files/shaderpacks/ComplementaryUnbound_r5.4.zip.txt",
+            "MD5": "58dfc5d689aeb6b246a6e1fd9a2c725a",
+            "path": "shaderpacks/ComplementaryUnbound_r5.4.zip.txt"
+          }
+        }
+      ]
+    }
+  ]
+}
